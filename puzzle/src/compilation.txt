@@ -1,0 +1,15 @@
+avec le terminal 
+javac -d ../build/ modele/*.java
+java -cp ../build/ modele.App
+java -cp ../build/ client.App // package client faut executer ca 
+
+
+
+
+
+
+
+
+avec l'interface
+javac -d ../build/ vue/*.java
+java -cp ../build/ vue.TaquinController
